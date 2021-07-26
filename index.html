@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/60b5e692f7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Curriculum Vitae</title>
+  </head>
+  <body class="bg-light">
+    <div class="container p-0" style="width: 210mm">
+
+      <!--  Personal Information -->
+      <div class="row flex-nowrap py-4">
+        <div class="col-auto pl-0 pr-1">
+          
+    <img src="{{ url_for('static', filename='profile_picture_2.jpg') }}" class="border border-3 border-secondary rounded-circle profile_picture">
+    
+        </div>
+        <div class="col px-0 align-self-center text-center">
+          
+    <h1 class="display-5">Curriculum Vitae</h1>
+    <h2 class="display-6">Marc Cornet</h2>
+    
+        </div>
+        <div class="col-auto pl-1 align-self-center">
+          <table>
+    <tr>
+        <td class="px-2 align-text-top text-end"><i class="fas fa-house-user"></i></td>
+        <td class="pl-4">Klundert</td>
+    </tr>
+    <tr>
+        <td class="px-2 text-end"><i class="fas fa-calendar-day"></i></td>
+        <td class="pl-4">15 - 08 - 1987</td>
+    </tr>
+    <tr>
+        <td class="px-2 text-end"><i class="fas fa-mobile"></i></td>
+        <td class="pl-4">06 27 10 95 64</td>
+    </tr>
+    <tr>
+        <td class="px-2 text-end"><i class="fas fa-envelope"></i></td>
+        <td class="pl-4">marccornet@gmail.com</td>
+    </tr>
+    <tr>
+        <td class="px-2 text-end"><i class="fas fa-car-side"></i></td>
+        <td class="pl-4">B, Auto</td>
+    </tr>
+</table>
+        </div>
+      </div>
+
+      <!-- Horizontal border that is not background -->
+      <div class="row border-bottom border-secondary border-2"></div>
+
+      <!--  About Me -->
+      <div class="row py-4">
+        <div class="col-8 ps-4 pe-5"><h2 class="pb-3"><i class="fas fa-user"></i> Introductie</h2>
+<p>
+Ik heb een passie voor programmeren en het oplossen van puzzels 
+en ben op zoek naar een uitdaging om me verder te ontwikkelen. 
+
+In professionele omgevingen heb ik C (embedded) en C++ gebruikt. 
+
+En ook de huidige ontwikkelingen op het gebied van SaaS en de multi-platform 
+frameworks vind ik razend interessant. 
+
+In persoonlijke projecten en uitdagingen zoals project-euler en leetcode
+gebruik ik al geruime tijd Python. 
+
+Bovendien heb ik onder andere ervaring met talen als: HTML, CSS, JavaScript, R, Matlab; en ook verschillende frameworks als Qt en Flask. 
+</p>
+
+<p>
+De kennis die ik  heb opgedaan bij het programmeren in veel verschillende
+talen helpt mij ook om 'onverwachte' problemen eerder te begrijpen 
+omdat ik een meer diepgaande kennis bezit hoe een hogere abstractie onder 
+de motorkap werkt en zo onverwachte resultaten oplevert. Het is voor makkelijk
+om snel een nieuwe taal of framework op te pakken zodat ik de juiste
+tool voor the job kan gebruiken.
+
+Omdat ik goed kennis over kan dragen ben ik vaak in staat om anderen te 
+helpen met problemen waar ze tegen aanlopen. En kan ik zowel zelfstandig als in 
+multidisciplinair verband goed mijn werk doen.
+</p></div>
+        <div class="col-4 ps-5 pe-4"><h3 pb-3><i class="fas fa-heart"></i> Hobbies</h3>
+<br>
+<table>
+    <!-- <i class="fas fa-laptop-code"></i> <i class="fas fa-file-code"></i> -->
+    <tr>
+        <td class="px-2 align-text-top text-end"><i class="fas fa-code"></i></td>
+        <td class="pl-4">LeetCode</td>
+    </tr>
+
+    <!-- <i class="fas fa-laptop-code"></i> <i class="fas fa-file-code"></i> -->
+    <tr>
+        <td class="px-2 align-text-top text-end"><i class="fas fa-book-reader"></i></td>
+        <td class="pl-4">Coding Boeken</td>
+    </tr>
+
+    <tr>
+        <td class="px-2 text-end"><i class="fas fa-dumbbell"></i></td>
+        <td class="pl-4">Fitness</td>
+    </tr>
+
+    <tr>
+        <td class="px-2 text-end"><i class="fas fa-biking"></i></td>
+        <td class="pl-4">Fietsen</td>
+    </tr>
+
+    <tr>
+        <td class="px-2 text-end"><i class="fas fa-walking"></i></td>
+        <td class="pl-4">Lopen</td>
+    </tr>
+
+    <!-- <i class="fas fa-headphones"></i> -->
+    <tr>
+        <td class="px-2 text-end"><i class="fas fa-music"></i></td>
+        <td class="pl-4">Muziek</td>
+    </tr>
+
+    <!-- <i class="fas fa-tv"></i> /  <i class="fas fa-video"></i> -->
+    <tr>
+        <td class="px-2 text-end"><i class="fas fa-film"></i></td>
+        <td class="pl-4">TV-Series</td>
+    </tr>
+
+</table>
+</div>
+      </div>
+      
+      <!-- Horizontal border that is not background -->
+      <div class="row border-bottom border-secondary border-2"></div>
+
+      <!--  Summary -->
+      <div class="row py-4">
+        <div class="col-4 ps-3 pe-5">Test</div>
+        <div class="col-4 px-5 border-start border-secondary border-2">Test</div>
+        <div class="col-4 ps-5 pe-4 border-start border-secondary border-2">Test</div>
+      </div>
+
+      <!-- Horizontal border that is not background -->
+      <div class="row border-bottom border-secondary border-2"></div>
+
+      <!--  Work Experience -->
+      <div class="row py-4">
+        <div class="col-7 ps-3 pe-4"><h2 class="pb-3"><i class="fas fa-industry"></i> Werk Ervaring</h2>
+<table>
+    <!-- Studio Roosegaarde -->
+    <tr>
+        <td>
+            <b><i>Studio Roosegaarde</i></b>, Waddinxveen
+            <p>2012 - 2013</p>
+
+            <p>
+                <b>Functie</b>: Medior C programmeur
+            </p>
+            <p>
+                <b>Werkzaamheden</b>: <br>
+                Programmeren lichteffecten voor kunstwerken van Daan Roosegaarde.
+                Een belangrijk aspect was interdisciplinaire communicatie met het
+                ontwerpteam en het vinden van oplossingen om de limitaties van de
+                relatief eenvoudige microcontrollers zoveel mogelijk de visie van de
+                kunstenaars te realiseren of alternatieven aan te bieden.
+            </p>
+            <p>
+                <b>Gebruikte technieken</b>: <br>
+                PIC microcontrollers, C
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="1">
+            <div class="mb-3 border-bottom border-secondary border-2"></div>
+        </td>
+    </tr>
+
+    <!-- Last Mile Solutions -->
+    <tr>
+        <td>
+            <b><i>Last Mile Solutions</i></b>, Rotterdam <br>
+            <p>2012 - 2012</p>
+            <p>
+                <b>Functie</b>: Medior C++ programmeur
+            </p>
+            <p>
+                <b>Werkzaamheden</b>: <br>
+                Ontwikkelen van een compleet software pakket inclusief GUI om de
+                kwaliteitscontrole van kritieke communicatie modules van jachten en
+                schepen te verbeteren en deze aan testen te onderwerpen. Dit in
+                teamverband die de hardware interface van het testbed voor de
+                modules verbeterde. Hier het voor mij compleet nieuwe Qt framework
+                opgepakt binnen de tijd die voor de opdracht stond en naar
+                tervredenheid van de opdrachtgever toegepast.
+            </p>
+            <p>
+                <b>Gebruikte technieken</b>: <br>
+                C++, Qt-framework, Statemachines met signals en slots. <br>
+                C, Atmega microcontrollers, CAN-Bus over seriele poort.
+            </p>            
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="1">
+            <div class="mb-3 border-bottom border-secondary border-2"></div>
+        </td>
+    </tr>
+
+
+    <!-- Operator Group Delft, Delt -->
+    <tr>
+        <td>
+            <b><i>Operator Group Delft</i></b>, Delft, parttime <br>
+            <p>2007 - 2008</p>
+            <p>
+                <b>Functie</b>: detachering: systeembeheer, account management, software uitrollen
+            </p>
+            <p>
+                <b>Werkzaamheden</b>: <br>
+                Accountbeheer voor het Haga Ziekenhuis, Den Haag <br>
+                Uitrollen software voor ASHLAND, Barendrecht <br>
+                Serverbeheerder voor NAi, Rotterdam <br>
+            </p>
+            <p>
+                <b>Gebruikte technieken</b>: <br>
+                Remote server beheer, apache, tomcat <br>
+                Remote software deployment, account beheer onder windows server.
+            </p>  
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="1">
+            <div class="mb-3 border-bottom border-secondary border-2"></div>
+        </td>
+    </tr>
+
+    <!-- Voeten en Knepper, Klundert -->
+    <tr>
+        <td>
+            <b><i>Voeten en Knepper</i></b>, Klundert, parttime <br>
+            <p>2002 - 2011</p>
+            <p>
+                <b>Functie</b>: Full Stack Developer
+            </p>
+            <p>
+                <b>Werkzaamheden</b>: <br>
+                Afleveren van een website volgens de specificaties en ontwerp van de
+                klant met een contact formulier. Later de vrijheid gekregen om de site
+                een zeer fris uiterlijk te geven en deze helemaal zelf te ontwerpen.
+            </p>
+            <p>
+                <b>Gebruikte technieken</b>: <br>
+                HTML, CSS, Javascript, PHP
+            </p>                          
+        </td>
+    </tr>
+</table></div>
+        <div class="col-5 ps-4 pe-3"><h3 class="pb-3"><i class="fas fa-user-plus"></i> Nevenactiviteiten</h3>
+<table>
+    <!-- Tuinvereninging -->
+    <tr>
+        <td>
+            <b><i>Tuinvereniging "de Niervaert"</i></b>
+            <p>2020 - heden</p>
+            <p>
+                <b>Functie</b>: junior full stack developer
+            </p>
+            <p>
+                <b>Activiteiten</b>: <br>
+                Het ontwerp en implementatie van een Python en Flask based app om
+                voor de penningmeester het process van het generen van rekeningen
+                (grotendeels) te automatiseren. In pdf formaat worden de notas aan de
+                penningmeester aangeleverd op basis van de hoeveelheid verpachte
+                grond en afgenomen extra diensten.
+            </p>
+            <p>
+                <b>Gebruikte technieken</b>: <br>
+                HTML, CSS, Python, Flask, Pandas, Excel
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="1">
+            <div class="mb-3 border-bottom border-secondary border-2"></div>
+        </td>
+    </tr>
+
+    <!-- Arduino -->
+    <tr>
+        <td>
+            <b><i>Familie</i></b>, Klundert <br>
+            <p>2012</p>
+            <p>
+                <b>Functie</b>: Medior C programmeur
+            </p>
+            <p>
+                <b>Activiteiten</b>: <br>
+                Het maken van een 16 x 2 matrix LCD based interface om de meest
+                gebruikte functionaliteit van een digitaal orgel programma aan te
+                spreken over MIDI. Dit maakte het mogelijk om naadloos te schakelen
+                tussen het oorspronkelijke orgel en het digitale orgel op de pc en
+                maakt het gebruik van een beeldscherm om het orgelprogramma in te
+                stellen alleen nodig voor minder vaak gebruikte functies.
+            </p>
+            <p>
+                <b>Gebruikte technieken</b>: <br>
+                C, Arduino, MIDI-interface
+            </p>            
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="1">
+            <div class="mb-3 border-bottom border-secondary border-2"></div>
+        </td>
+    </tr>
+
+
+    <!-- CSFR -->
+    <tr>
+        <td>
+            <b><i>CSFR</i></b>, studentenvereniging in Delft<br>
+            <p>2006 - 2014</p>
+            <p>
+                <b>Functies</b>: penningmeester, fotograaf, web-master
+            </p>
+            <p>
+                <b>Activiteiten</b>: <br>
+                Bijhouden van de administratie; fotos maken bij activiteiten; 
+                Het implementeren van een online verjaardagskalender en het automatisch 
+                versturen van een felicitatie email naar jarige leden.
+            </p>
+            <p>
+                <b>Gebruikte technieken</b>: Excel, HTML, CSS, PHP<br>
+            </p>  
+        </td>
+    </tr>
+
+</table></div>
+      </div>
+      
+
+      <!-- Horizontal border that is not background -->
+      <div class="row border-bottom border-secondary border-2"></div>
+
+      <!--  Opleiding + Cursissen -->
+      <div class="row py-4">
+        <div class="col-10 ps-3 pe-4"><h2 class="pb-3"><i class="fas fa-user-graduate"></i> Opleiding & Cursissen</h2>
+<br>
+<table>
+    <!-- VWO -->
+    <tr>
+        <td class="align-text-top text-start" style="white-space:nowrap;">2000 - 2006</td>
+        <td>
+            <p>
+            Wartburg College, Rotterdam <br>
+            VWO <br>
+            Diploma: 2006
+            </p>
+        </td>
+    </tr>
+
+    <!-- Seperator -->
+    <tr>
+        <td colspan="2">
+            <div class="mb-3 border-bottom border-secondary border-2"></div>
+        </td>
+    </tr>
+
+    <!-- TIS DELFT ELEKTROTECHNIEK -->
+    <tr>
+        <td class="pe-3 align-text-top text-start" style="white-space:nowrap;">2012 - 2012</td>
+        <td>
+            <p>
+            Haagse Hoogeschool, Delft <br>
+            HBO, ELektrotechniek <br>
+            Diploma: nee, wel propadeuse
+            </p>
+            <p>
+                De studie-invulling was vergelijkbaar met een hybride tussen
+                robotica en informatica. Vakken als: Object georiënteerd
+                programmeren in C++, Algoritmen en datastructuren, Real-time
+                systemen, Tele- en datacommunicatie, PLC-techniek hebben mij
+                een meer een allround programmeur gemaakt.
+            </p>
+    </tr>
+
+    <!-- Seperator -->
+    <tr>
+        <td colspan="2">
+            <div class="mb-3 border-bottom border-secondary border-2"></div>
+        </td>
+    </tr>
+
+
+    <!-- Cursissen, Front End Development -->
+    <tr>
+        <td class="pe-3 align-text-top text-start" style="white-space:nowrap;">2021 - 2021</td>
+        <td>
+            <p>CodeCademy - Front-End Engineer Career Path (In Progress)</p>
+            <p>
+                "...We’ll give you everything you need to know to apply for an 
+                entry-level job in front-end engineering: from languages like 
+                HTML, CSS, and JavaScript, to frameworks like React and Redux, 
+                to interview skills, like whiteboarding and data structures."
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <div class="mb-3 border-bottom border-secondary border-2"></div>
+        </td>
+    </tr>
+
+    <!-- Cursissen, Flask -->
+    <tr>
+        <td class="pe-3 align-text-top text-start" style="white-space:nowrap;">2021 - 2021</td>
+        <td>
+            <p>CodeCademy - Learn Flask</p>
+            <p></p>
+                Creating interactive web applications with flask
+                and deploying them to Heroku
+            </p>
+        </td>
+    </tr>
+
+    <!-- Seperator -->
+    <tr>
+        <td colspan="2">
+            <div class="mb-3 border-bottom border-secondary border-2"></div>
+        </td>
+    </tr>
+
+    <!-- Cursissen, R -->
+    <tr>
+        <td class="pe-3 align-text-top text-start" style="white-space:nowrap;">2021 - 2021</td>
+        <td>
+            <p>CodeCademy - Analyze Data with R</p>
+            <p>
+                Introductie tot R, Statististics in R,
+                Data Frames en Data Cleaning, Data visualization met ggplot2,
+                Linear Regression
+            </p>
+        </td>
+    </tr>
+
+    <!-- Seperator -->
+    <tr>
+        <td colspan="2">
+            <div class="mb-3 border-bottom border-secondary border-2"></div>
+        </td>
+    </tr>
+
+    <!-- Cursissen, Numpy -->
+    <tr>
+        <td class="pe-3 align-text-top text-start" style="white-space:nowrap;">2021 - 2021</td>
+        <td>
+            <p>CodeCademy - Statistics met NumPy</p>
+            <p>
+                Introductie tot NumPy in Python
+            </p>
+        </td>
+    </tr>
+
+    <!-- Seperator -->
+    <tr>
+        <td colspan="2">
+            <div class="mb-3 border-bottom border-secondary border-2"></div>
+        </td>
+    </tr>
+
+    <!-- Cursissen, Learn Python 3 -->
+    <tr>
+        <td class="pe-3 align-text-top text-start" style="white-space:nowrap;">2021 - 2021</td>
+        <td>
+            <p>CodeCademy - Learn Python 3</p>
+            <p>
+                Introductiecursus van python 3 syntax,
+                control flow, classes, functies. Hoewel ik al veel ervaring had
+                met Python wilde ik graag een refresher om er zeker van te zijn
+                geen basis dingen gemist te hebben tijdens het zelf aanleren
+                van Python. Dit bleek erg overbodig
+            </p>
+        </td>
+    </tr>
+
+    <!-- Seperator -->
+    <tr>
+        <td colspan="2">
+            <div class="mb-3 border-bottom border-secondary border-2"></div>
+        </td>
+    </tr>
+
+    <!-- Cursissen, Machine Learning -->
+    <tr>
+        <td class="pe-3 align-text-top text-start" style="white-space:nowrap;">2020 - 2021</td>
+        <td>
+            <p>Coursera - Machine Learning</p>
+            <p>
+                Linear Regression, Logistic Regression,
+                Neural Networks, Support Vector Machines, Unsupervised
+                Learning, Dimensionality Reduction, Anomaly Detection,
+                Recommender Systems
+            </p>
+        </td>
+    </tr>
+
+    <!-- Seperator 
+    <tr>
+        <td colspan="2">
+            <div class="mb-3 border-bottom border-secondary border-2"></div>
+        </td>
+    </tr> -->
+
+
+</table></div>
+        <div class="col-2 ps-4 pe-3"></div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
