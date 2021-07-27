@@ -12,6 +12,13 @@
     <script src="https://kit.fontawesome.com/60b5e692f7.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <!-- small style fixes -->
+    <style>
+      a:link { text-decoration: none; }
+      a:visited { text-decoration: none; }
+      a:active { text-decoration: none; }
+    </style>
+
     <title>Curriculum Vitae</title>
   </head>
   <body class="bg-light">
@@ -61,7 +68,7 @@
 
       <!--  Introduction about me -->
       <div class="row py-4 .gx-0">
-        <div class="col-9 pe-4"><h2 class="pb-3"><i class="fas fa-user-tie"></i> Introductie</h2>
+        <div class="col-9 pe-4 border-end border-secondary border-2" style="border-right-style: dashed !important"><h2 class="pb-3"><i class="fas fa-user-tie"></i> Introductie</h2>
 <p>
 Ik heb een passie voor programmeren en het oplossen van puzzels 
 en ben op zoek naar een uitdaging om me verder te ontwikkelen. 
@@ -94,7 +101,7 @@ multidisciplinair verband goed mijn werk doen.
     <!-- <i class="fas fa-laptop-code"></i> <i class="fas fa-file-code"></i> -->
     <tr>
         <td class="px-2 align-text-top text-end"><i class="fas fa-code"></i></td>
-        <td class="pl-4">LeetCode</td>
+        <td class="pl-4">Leetcode</td>
     </tr>
 
     <!-- <i class="fas fa-laptop-code"></i> <i class="fas fa-file-code"></i> -->
@@ -153,7 +160,7 @@ multidisciplinair verband goed mijn werk doen.
         </p>
     </div>
 
-    <div class="col-4 px-4 border-start border-secondary border-2">
+    <div class="col-4 px-4 border-start border-secondary border-2" style="border-left-style: dashed !important">
         <h4 class="pb-2"><i class="fas fa-file-code"></i> Languages</h4>
         <p>
             <ul>
@@ -166,14 +173,15 @@ multidisciplinair verband goed mijn werk doen.
         </p>
     </div>
 
-    <div class="col-4 ps-4 border-start border-secondary border-2">
+    <div class="col-4 ps-4 border-start border-secondary border-2" style="border-left-style: dashed !important">
         <h4 class="pb-3"><i class="fas fa-hourglass-half"></i> In Progress</h4>
         <p>
-            <i class="fas fa-university"></i> Front-End engineering @ CodeCademy</li>
+            <i class="fas fa-university"></i> Front-End engineering @ Codecademy</li>
             <br><br>
             <i class="fas fa-book"></i> Eloquent JavaScript </li>
             <br><br>
-            <i class="fas fa-tools"></i> Algoritmen en datastructuren op LeetCode</li>   
+            <!-- <i class="fas fa-tools"></i> Algoritmen en datastructuren op Leetcode</li> -->
+            <a href="https://github.com/mccornet/leetcode_challenges"><i class="fab fa-github"></i> Leetcode Challenges Repository</a></i>
         </p>
     </div>
 </div>
@@ -185,7 +193,7 @@ multidisciplinair verband goed mijn werk doen.
 
       <!--  Work Experience -->
       <div class="row py-4 .gx-0">
-        <div class="col-7 pe-3"><h2 class="pb-3"><i class="fas fa-industry"></i> Werkervaring</h2>
+        <div class="col-7 pe-4 border-end border-secondary border-2" style="border-right-style: dashed !important"><h2 class="pb-3"><i class="fas fa-industry"></i> Werkervaring</h2>
 <table>
     <!-- Studio Roosegaarde -->
     <tr>
@@ -250,7 +258,7 @@ multidisciplinair verband goed mijn werk doen.
     </tr>
 
 
-    <!-- Operator Group Delft, Delt -->
+    <!-- Operator Group Delft, Delft -->
     <tr>
         <td>
             <b><i>Operator Group Delft</i></b>, Delft, parttime <br>
@@ -299,7 +307,7 @@ multidisciplinair verband goed mijn werk doen.
         </td>
     </tr>
 </table></div>
-        <div class="col-5 ps-3"><h3 class="pb-3"><i class="fas fa-user-plus"></i> Nevenactiviteiten</h3>
+        <div class="col-5 ps-4"><h3 class="pb-3"><i class="fas fa-user-plus"></i> Nevenactiviteiten</h3>
 <table>
     <!-- Tuinvereninging -->
     <tr>
@@ -313,7 +321,7 @@ multidisciplinair verband goed mijn werk doen.
                 <b>Activiteiten</b>: <br>
                 Het ontwerp en implementatie van een Python en Flask based app om
                 voor de penningmeester het process van het generen van rekeningen
-                (grotendeels) te automatiseren. In pdf formaat worden de notas aan de
+                (grotendeels) te automatiseren. In pdf formaat worden de nota's aan de
                 penningmeester aangeleverd op basis van de hoeveelheid verpachte
                 grond en afgenomen extra diensten.
             </p>
@@ -371,7 +379,7 @@ multidisciplinair verband goed mijn werk doen.
             </p>
             <p>
                 <b>Activiteiten</b>: <br>
-                Bijhouden van de administratie; fotos maken bij activiteiten; 
+                Bijhouden van de administratie; foto's maken bij activiteiten; 
                 Het implementeren van een online verjaardagskalender en het automatisch 
                 versturen van een felicitatie email naar jarige leden.
             </p>
@@ -390,7 +398,7 @@ multidisciplinair verband goed mijn werk doen.
 
       <!--  Opleiding + Cursussen -->
       <div class="row py-4 .gx-0">
-        <div class="col-10 pe-4"><h2 class="pb-3"><i class="fas fa-user-graduate"></i> Opleiding & Cursissen</h2>
+        <div class="col-10 pe-4"><h2 class="pb-3"><i class="fas fa-user-graduate"></i> Opleiding & Cursussen</h2>
 <br>
 <table>
     <!-- VWO -->
@@ -419,7 +427,7 @@ multidisciplinair verband goed mijn werk doen.
             <p>
             Haagse Hoogeschool, Delft <br>
             HBO, ELektrotechniek <br>
-            Diploma: nee, wel propadeuse
+            Diploma: nee, wel propedeuse
             </p>
             <p>
                 De studie-invulling was vergelijkbaar met een hybride tussen
@@ -438,11 +446,11 @@ multidisciplinair verband goed mijn werk doen.
     </tr>
 
 
-    <!-- Cursissen, Front End Development -->
+    <!-- Cursussen, Front End Development -->
     <tr>
         <td class="pe-3 align-text-top text-start" style="white-space:nowrap;">2021 - 2021</td>
         <td>
-            <p>CodeCademy - Front-End Engineer Career Path (In Progress)</p>
+            <p>Codecademy - Front-End Engineer Career Path (In Progress)</p>
             <p>
                 "...We’ll give you everything you need to know to apply for an 
                 entry-level job in front-end engineering: from languages like 
@@ -458,11 +466,11 @@ multidisciplinair verband goed mijn werk doen.
         </td>
     </tr>
 
-    <!-- Cursissen, Flask -->
+    <!-- Cursussen, Flask -->
     <tr>
         <td class="pe-3 align-text-top text-start" style="white-space:nowrap;">2021 - 2021</td>
         <td>
-            <p>CodeCademy - Learn Flask</p>
+            <p>Codecademy - Learn Flask</p>
             <p></p>
                 Creating interactive web applications with flask
                 and deploying them to Heroku
@@ -477,11 +485,11 @@ multidisciplinair verband goed mijn werk doen.
         </td>
     </tr>
 
-    <!-- Cursissen, R -->
+    <!-- Cursussen, R -->
     <tr>
         <td class="pe-3 align-text-top text-start" style="white-space:nowrap;">2021 - 2021</td>
         <td>
-            <p>CodeCademy - Analyze Data with R</p>
+            <p>Codecademy - Analyze Data with R</p>
             <p>
                 Introductie tot R, Statististics in R,
                 Data Frames en Data Cleaning, Data visualization met ggplot2,
@@ -497,11 +505,11 @@ multidisciplinair verband goed mijn werk doen.
         </td>
     </tr>
 
-    <!-- Cursissen, Numpy -->
+    <!-- Cursussen, Numpy -->
     <tr>
         <td class="pe-3 align-text-top text-start" style="white-space:nowrap;">2021 - 2021</td>
         <td>
-            <p>CodeCademy - Statistics met NumPy</p>
+            <p>Codecademy - Statistics met NumPy</p>
             <p>
                 Introductie tot NumPy in Python
             </p>
@@ -515,11 +523,11 @@ multidisciplinair verband goed mijn werk doen.
         </td>
     </tr>
 
-    <!-- Cursissen, Learn Python 3 -->
+    <!-- Cursussen, Learn Python 3 -->
     <tr>
         <td class="pe-3 align-text-top text-start" style="white-space:nowrap;">2021 - 2021</td>
         <td>
-            <p>CodeCademy - Learn Python 3</p>
+            <p>Codecademy - Learn Python 3</p>
             <p>
                 Introductiecursus van python 3 syntax,
                 control flow, classes, functies. Hoewel ik al veel ervaring had
@@ -537,7 +545,7 @@ multidisciplinair verband goed mijn werk doen.
         </td>
     </tr>
 
-    <!-- Cursissen, Machine Learning -->
+    <!-- Cursussen, Machine Learning -->
     <tr>
         <td class="pe-3 align-text-top text-start" style="white-space:nowrap;">2020 - 2021</td>
         <td>
